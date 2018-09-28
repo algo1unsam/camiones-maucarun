@@ -1,5 +1,6 @@
 import camiones.*
 
+// TODO muy bien los test!!
 test "Distintos niveles de peligrosidad de Bumblebee" {
 	bumblebee.cambioForma(auto)
 	assert.equals(15,bumblebee.peligrosidad())

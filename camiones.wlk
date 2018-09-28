@@ -1,3 +1,7 @@
+// TODO separá en archivos! 
+// así queda un toque mas separado y es más fácil de entender
+// mas o menos, tampoco te digo un objecto por archivo eh
+
 object knightRider {
 	var property peso = 500
 	var property peligrosidad = 500
@@ -24,14 +28,18 @@ object ladrillos {
 	var property peligrosidad = 2
 	var cantLadrillos = 0
 	
+	// TODO es un método de órden o de pregunta 
 	method cantLadrillos(cantidad){
 		cantLadrillos=cantLadrillos+cantidad
 		return cantLadrillos
 	}
 	method peso(){
+		// TODO es peso del ladrillo * cantidad de ladrillos
 		return cantLadrillos*2
 	}
 }
+
+// TODO más fácil si están todos los paquetes juntos
 
 object camion{
 	var property cargas=[]
